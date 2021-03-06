@@ -15,7 +15,7 @@ export default class extends React.Component {
     try {
       const {
         data: { results: nowPlaying },
-      } = await moviesApi.nowPlaying();
+      } = await moviesApi.nowPlaying(); // await이 없으면 기다리지 않고 넘어감
       const {
         data: { results: upcoming },
       } = await moviesApi.upcoming();
@@ -23,6 +23,7 @@ export default class extends React.Component {
         data: { results: popular },
       } = await moviesApi.popular();
       this.setState({
+        // axios instance로 가져온 data를 setState
         nowPlaying,
         upcoming,
         popular,
@@ -32,6 +33,7 @@ export default class extends React.Component {
         error: "Can't find movie information.",
       });
     } finally {
+      // even if it failed, it makes loading false
       this.setState({
         loading: false,
       });
