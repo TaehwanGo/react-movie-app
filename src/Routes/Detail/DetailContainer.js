@@ -22,11 +22,11 @@ export default class extends React.Component {
         params: { id },
       },
       history: { push },
-    } = this.props;
+    } = this.props; // react-router-dom의 Router component는 match, location, history, staticContext가 포함 됨(withRouter를 사용하지 않아도 됨)
     const { isMovie } = this.state;
     const parsedId = parseInt(id);
     if (isNaN(parsedId)) {
-      return push('/');
+      return push('/'); // return을 넣어줘야 DidMount함수가 종료 되면서 홈으로 감
     }
     let result = null;
     try {
