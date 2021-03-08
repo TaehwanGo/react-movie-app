@@ -4,7 +4,7 @@ import { moviesApi, tvApi } from '../../api';
 
 export default class extends React.Component {
   constructor(props) {
-    super(props);
+    super(props); // super : React.Component의 this.props에 props을 저장
     const {
       location: { pathname },
     } = props;
