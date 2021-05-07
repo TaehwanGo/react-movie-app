@@ -36,4 +36,6 @@ Learning React and ES6 by building a Movie Discovery App.
 
 - router가 제대로 작동을 안하기 때문에 netlify를 이용해서 배포
 
-[netlify]
+[netlify](https://affectionate-panini-f60425.netlify.app)
+
+- HashRouter로 변경 후 배포
