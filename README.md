@@ -97,13 +97,13 @@ const Item = styled.li`
 
 ## [Day 5](https://codesandbox.io/s/day-five-solution-forked-2m3yh?file=/src/index.js)
 
-![coin explorer](src/assets/images/day5.png)
+![coin explorer](src/assets/images/day5.PNG)
 
 - simple coin explorer
 
 ## [Day 6](https://codesandbox.io/s/day-six-solution-forked-4l9on?file=/src/Screens/Coin/CoinPresenter.js)
 
-![day6](src/assets/images/day6.png)
+![day6](src/assets/images/day6.PNG)
 
 ```javascript
 const CoinPresenter = withRouter(({ location: { pathname }, loading, coin }) =>
@@ -148,7 +148,7 @@ const CoinPresenter = withRouter(({ location: { pathname }, loading, coin }) =>
 
 ## Day 7
 
-![day7](src/assets/images/day7.png)
+![day7](src/assets/images/day7.PNG)
 
 - react hooks(useEffect, useState)
 - [submit](https://codesandbox.io/s/day-seven-blueprint-forked-1uhn2?file=/src/index.js)
@@ -160,7 +160,7 @@ const CoinPresenter = withRouter(({ location: { pathname }, loading, coin }) =>
 
 ## [Day 9](https://codesandbox.io/s/day-nine-solution-forked-isyz4?file=/src/index.js)
 
-![day9](src/assets/images/day9.png)
+![day9](src/assets/images/day9.PNG)
 
 - infinite scroll using hooks
 
