@@ -232,3 +232,35 @@ export function useInfiniteScroll() {
   return page;
 }
 ```
+
+## 수정사항
+
+2021.07.02
+
+- popular movies를 받아올 때 year가 없는 데이터가 있어서 예외처리 넣음
+  - 예외처리해도 되는데 그냥 년월일 다 나오는 게 좋을 것 같아서 전부 표시하는 것으로 수정
+
+<details>
+<summary>수정 코드</summary>
+
+```javascript
+{
+  popular.map(movie => (
+    <Poster
+      key={movie.id}
+      id={movie.id}
+      imageUrl={movie.poster_path}
+      title={movie.original_title}
+      rating={movie.vote_average}
+      year={
+        movie.release_date ? movie.release_date.substring(0, 4) : '' // 예외 처리 -> movie.release_date 전부표기
+      }
+      isMovie={true}
+    />
+  ));
+}
+```
+
+popular 뿐만 아니라 모든 섹션에 적용
+
+</details>
