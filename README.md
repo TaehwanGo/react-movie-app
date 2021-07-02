@@ -4,21 +4,21 @@ Learning React and ES6 by building a Movie Discovery App.
 
 ## Screens
 
-- [ ] Home
-- [ ] TV Shows
-- [ ] Search
-- [ ] Detail
+- [x] Home
+- [x] TV Shows
+- [x] Search
+- [x] Detail
 
 ## API Verbs
 
-- [ ] Now playing (Movie)
-- [ ] Upcoming (Movie)
-- [ ] Top Rated (TV)
-- [ ] Popular (TV, X)
-- [ ] Airing Today (TV)
-- [ ] TV Show Detail
-- [ ] Movie Detail
-- [ ] Search (Movie, TV)
+- [x] Now playing (Movie)
+- [x] Upcoming (Movie)
+- [x] Top Rated (TV)
+- [x] Popular (TV, X)
+- [x] Airing Today (TV)
+- [x] TV Show Detail
+- [x] Movie Detail
+- [x] Search (Movie, TV)
 
 ## Code Challenges
 
@@ -42,7 +42,12 @@ Learning React and ES6 by building a Movie Discovery App.
 
 # Code challenges
 
+- 스스로 과제를 해결하는 일일 숙제
+
 ## [Day 1](https://codesandbox.io/s/day-one-blueprint-forked-b22qp?file=/src/index.js)
+
+<details>
+<summary>JS 문법 응용</summary>
 
 ![day1](src/assets/images/day1.PNG)
 
@@ -51,22 +56,34 @@ Learning React and ES6 by building a Movie Discovery App.
 - freezeObject
 - getOnlyValues
 - getOnlyProperties(keys)
+</details>
 
 ## [Day 2](https://codesandbox.io/s/day-two-blueprint-forked-ij4ej?file=/src/index.js)
+
+<details>
+<summary>array&string method</summary>
 
 ![day2](src/assets/images/day2.PNG)
 
 - Array method : map, filter, reduce, splice
 - String method
   - split() : divide a string into an ordered list of substrings
+  </details>
 
 ## [Day 3](https://codesandbox.io/s/day-three-blueprint-forked-w6ie3)
+
+<details>
+<summary>router</summary>
 
 ![day3](src/assets/images/day3.PNG)
 
 - simple page with react router
+</details>
 
 ## [Day 4](https://codesandbox.io/s/day-four-solution-forked-qnvsc?file=/src/Screens/Coins.js)
+
+<details>
+<summary>styled-component</summary>
 
 ![day4](src/assets/images/day4.PNG)
 
@@ -95,13 +112,23 @@ const Item = styled.li`
 `;
 ```
 
+</details>
+
 ## [Day 5](https://codesandbox.io/s/day-five-solution-forked-2m3yh?file=/src/index.js)
+
+<details>
+<summary>api</summary>
 
 ![coin explorer](src/assets/images/day5.PNG)
 
 - simple coin explorer
 
+</details>
+
 ## [Day 6](https://codesandbox.io/s/day-six-solution-forked-4l9on?file=/src/Screens/Coin/CoinPresenter.js)
+
+<details>
+<summary>nested router</summary>
 
 ![day6](src/assets/images/day6.PNG)
 
@@ -145,8 +172,12 @@ const CoinPresenter = withRouter(({ location: { pathname }, loading, coin }) =>
 ```
 
 - nested router
+</details>
 
 ## Day 7
+
+<details>
+<summary>hooks</summary>
 
 ![day7](src/assets/images/day7.PNG)
 
@@ -154,11 +185,16 @@ const CoinPresenter = withRouter(({ location: { pathname }, loading, coin }) =>
 - [submit](https://codesandbox.io/s/day-seven-blueprint-forked-1uhn2?file=/src/index.js)
 - [solution](https://codesandbox.io/s/day-seven-solution-forked-g8191?file=/src/index.js)
 
+</details>
+
 ## [Day 8](https://codesandbox.io/s/day-eight-solution-forked-v8s0l?file=/src/Screens/Coin.js)
 
-- day6 class component to function component(hooks)
+- class component to function component(hooks)
 
 ## [Day 9](https://codesandbox.io/s/day-nine-solution-forked-isyz4?file=/src/index.js)
+
+<details>
+<summary>infinite scroll</summary>
 
 ![day9](src/assets/images/day9.PNG)
 
@@ -232,6 +268,8 @@ export function useInfiniteScroll() {
   return page;
 }
 ```
+
+</details>
 
 ## 수정사항
 
