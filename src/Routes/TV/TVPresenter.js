@@ -13,6 +13,8 @@ const Container = styled.div`
 
 const TVPresenter = ({ topRated, popular, airingToday, loading, error }) => (
   <>
+    {console.log(process.env.REACT_APP_KEKE)}
+    {console.log(process.env.TEST_TONY)}
     <Helmet>
       <title>TV Shows | Nomflix</title>
     </Helmet>
