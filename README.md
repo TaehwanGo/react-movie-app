@@ -30,6 +30,8 @@ Learning React and ES6 by building a Movie Discovery App.
 
 ## Refactoring using hooks
 
+- [ ] branch 나눠서 hooks로 바꾸기
+
 ## Deploy
 
 [gh-pages](https://TaehwanGo.github.io/react-movie-app)
@@ -302,3 +304,5 @@ export function useInfiniteScroll() {
 popular 뿐만 아니라 모든 섹션에 적용
 
 </details>
+
+- [ ] 자동으로 캐싱이 되는데 어떻게 돌아가는지 확인 할 것
