@@ -6,6 +6,8 @@ import Section from '../../components/Section';
 import Loader from '../../components/Loader';
 import Message from '../../components/Message';
 import Poster from '../../components/Poster';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const Container = styled.div`
   padding: 20px;
@@ -13,6 +15,8 @@ const Container = styled.div`
 
 const TVPresenter = ({ topRated, popular, airingToday, loading, error }) => (
   <>
+    {console.log('tony:', process.env.TEST_TONY)}
+    {console.log('keke:', process.env.REACT_APP_KEKE)}
     <Helmet>
       <title>TV Shows | Nomflix</title>
     </Helmet>
