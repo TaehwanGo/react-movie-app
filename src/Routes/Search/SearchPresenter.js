@@ -32,8 +32,6 @@ const SearchPresenter = ({
   updateTerm,
 }) => (
   <Container>
-    {console.log('tony:', process.env.TEST_TONY)}
-    {console.log('keke:', process.env.REACT_APP_KEKE)}
     <Helmet>
       <title>Search | Nomflix</title>
     </Helmet>
