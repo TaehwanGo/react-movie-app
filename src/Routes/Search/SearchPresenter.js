@@ -6,8 +6,8 @@ import Loader from '../../components/Loader';
 import Section from '../../components/Section';
 import Message from '../../components/Message';
 import Poster from '../../components/Poster';
-import dotenv from 'dotenv';
-dotenv.config();
+// import dotenv from 'dotenv';
+// dotenv.config();
 
 const Container = styled.div`
   padding: 20px;
@@ -34,8 +34,8 @@ const SearchPresenter = ({
   updateTerm,
 }) => (
   <Container>
-    {console.log(process.env.REACT_APP_KEKE)}
-    {console.log(process.env.TEST_TONY)}
+    {/* {console.log(process.env.REACT_APP_KEKE)}
+    {console.log(process.env.TEST_TONY)} */}
     <Helmet>
       <title>Search | Nomflix</title>
     </Helmet>

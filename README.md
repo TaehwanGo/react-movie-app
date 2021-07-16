@@ -302,3 +302,5 @@ popular 뿐만 아니라 모든 섹션에 적용
 </details>
 
 - [ ] 자동으로 캐싱이 되는데 어떻게 돌아가는지 확인 할 것
+- [x] react 환경변수 공부 : 개발단계, 배포환경
+  - [결론](https://velog.io/@gth1123/react%EC%97%90%EC%84%9C-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98dotenv-%EC%82%AC%EC%9A%A9)
